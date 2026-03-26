@@ -16,7 +16,7 @@ const skillGroups = [
   },
   {
     title: "Other",
-    skills: ["Database Management", "API Development", "Data Visualization", "Backend Architecture"],
+    skills: ["Database Management", "API Development", "Data Visualization", "Backend Architecture", "AWS", "MySQL", "SQLite", "PostgreSQL", "Git", "Linux"],
   },
 ];
 
