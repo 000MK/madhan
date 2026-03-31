@@ -4,19 +4,19 @@ import { useRef } from "react";
 const skillGroups = [
   {
     title: "Programming Languages",
-    skills: ["Python", "C#", "JavaScript", "PHP", "Node.js", "Angular", "Flutter", "R"],
+    skills: ["Python", "Java", "C++", "JavaScript", "PHP", "Node.js", "R"],
   },
   {
     title: "Frameworks & Tools",
-    skills: ["PyTorch", "Gym", "Flask", "PyQt", "Unity (C#)", "Firebase"],
+    skills: ["PyTorch", "TensorFlow", "FastAPI", "Flask", "LangChain", "Docker", "Firebase", "Unity (C#)"],
   },
   {
     title: "AI & Data",
-    skills: ["Reinforcement Learning (DQN, PPO, SAC, TD3)", "Transformer Models", "Regime Detection", "Financial Markets"],
+    skills: ["Reinforcement Learning (DQN, PPO, SAC, TD3)", "NLP", "OCR", "Computer Vision", "Transformer Models", "Deep Learning"],
   },
   {
     title: "Other",
-    skills: ["Database Management", "API Development", "Data Visualization", "Backend Architecture", "AWS", "MySQL", "SQLite", "PostgreSQL", "Git", "Linux"],
+    skills: ["Database Management", "API Development", "Data Visualization", "Backend Architecture", "AWS", "MySQL", "PostgreSQL", "Git", "Linux"],
   },
 ];
 
