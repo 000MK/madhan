@@ -4,22 +4,28 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    role: "Part-Time Software Engineer (Python)",
-    company: "ITG Integrate System",
-    location: "Taiwan",
-    description: "Built backend systems, handled data processing, and improved application performance using Python.",
+    role: "Software Engineer",
+    company: "Athena AI",
+    location: "",
+    description: "Built backend services using FastAPI, developed NLP and OCR pipelines for document processing, and optimized application performance for production workloads.",
+  },
+  {
+    role: "AI Research Intern",
+    company: "SRM Research Lab",
+    location: "",
+    description: "Conducted research on deep learning models for medical imaging and multi-agent reinforcement learning for traffic optimization.",
   },
   {
     role: "Backend Developer",
     company: "Episode Technology",
     location: "",
-    description: "Worked on Pingle hyperlocal booking app, building backend services using PHP & Node.js.",
+    description: "Worked on Pingle hyperlocal booking app, building backend services using PHP & Node.js with multi-tenant architecture.",
   },
   {
-    role: "Software Developer",
+    role: "Full Stack Developer",
     company: "Indtechsoft Solutions",
     location: "",
-    description: "Developed ERP and CRM web applications, delivering full-stack solutions for business clients.",
+    description: "Developed ERP and CRM web applications including Global Hearing Aid billing and inventory module, delivering full-stack solutions for business clients.",
   },
 ];
 
