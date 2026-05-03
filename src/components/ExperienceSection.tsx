@@ -10,7 +10,7 @@ const experiences = [
     description: "Built backend systems, handled data processing, and improved application performance using Python.",
   },
   {
-    role: "Backend Developer",
+    role: "Software Engineer, Lead Backend Engineer",
     company: "Episode Technology",
     location: "",
     description: "Worked on Pingle hyperlocal booking app, building backend services using PHP & Node.js.",
