@@ -4,19 +4,27 @@ import { useRef } from "react";
 const skillGroups = [
   {
     title: "Programming Languages",
-    skills: ["Python", "C#", "JavaScript", "PHP", "Node.js", "Angular", "Flutter", "R"],
+    skills: ["Python", "JavaScript", "TypeScript", "PHP", "R", "C#", "SQL"],
   },
   {
-    title: "Frameworks & Tools",
-    skills: ["PyTorch", "Gym", "Flask", "PyQt", "Unity (C#)", "Firebase"],
+    title: "Frameworks & Libraries",
+    skills: ["Flask", "Django", "Angular", "Node.js", "Express.js", "PyQt", "Flutter", "CodeIgniter"],
   },
   {
-    title: "AI & Data",
-    skills: ["Reinforcement Learning (DQN, PPO, SAC, TD3)", "Transformer Models", "Regime Detection", "Financial Markets"],
+    title: "AI / ML & Data Science",
+    skills: ["PyTorch", "TensorFlow", "Gymnasium", "FinRL", "Transformers", "LSTM", "scikit-learn", "NumPy", "Pandas", "Matplotlib", "YOLO", "Reinforcement Learning (DQN, PPO, SAC, TD3)"],
   },
   {
-    title: "Other",
-    skills: ["Database Management", "API Development", "Data Visualization", "Backend Architecture", "AWS", "MySQL", "SQLite", "PostgreSQL", "Git", "Linux"],
+    title: "Databases",
+    skills: ["MySQL", "PostgreSQL", "SQLite", "Firebase"],
+  },
+  {
+    title: "Cloud & DevOps",
+    skills: ["AWS", "Docker", "Git", "Linux", "REST APIs", "CI/CD"],
+  },
+  {
+    title: "Tools & Platforms",
+    skills: ["Jupyter Notebook", "RStudio", "VS Code", "PyCharm", "Unity"],
   },
 ];
 
