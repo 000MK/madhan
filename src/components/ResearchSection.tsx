@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { FileText, GraduationCap } from "lucide-react";
+import { FileText, GraduationCap, Award, Languages } from "lucide-react";
 
 const ResearchSection = () => {
   const ref = useRef(null);
@@ -32,11 +32,12 @@ const ResearchSection = () => {
             <div>
               <p className="font-mono text-primary text-xs tracking-wider mb-1">IEEE PAPER (IN PROGRESS)</p>
               <h3 className="font-semibold text-foreground text-lg mb-2">
-                Trustworthiness Frameworks in AI-Driven Consumer Applications
+                Regime-Aware Reinforcement Learning for Financial Trading Using Self-Supervised Transformers
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Researching reliable, explainable AI systems for financial applications. Focused on 
-                building trust and transparency in AI-driven decision-making for consumer-facing products.
+                Developed a Regime-Aware RL framework using self-supervised Transformers and risk-aware PPO
+                for financial trading. Achieved higher returns, improved Sharpe ratio, and lower drawdowns
+                over ten years of market data, demonstrating a stable and trustworthy AI trading system.
               </p>
             </div>
           </div>
@@ -56,7 +57,7 @@ const ResearchSection = () => {
             </div>
             <h3 className="font-semibold text-foreground mb-1">M.S. Computer Science & Engineering</h3>
             <p className="text-muted-foreground text-sm">Yuan Ze University, Taiwan</p>
-            <p className="text-muted-foreground text-xs mt-1">Final Semester</p>
+            <p className="text-muted-foreground text-xs mt-1">2024 — Present · Data Science, Deep Learning, ML, GenAI, Unity Game Dev</p>
           </motion.div>
 
           <motion.div
@@ -71,6 +72,44 @@ const ResearchSection = () => {
             </div>
             <h3 className="font-semibold text-foreground mb-1">B.Sc. Computer Science</h3>
             <p className="text-muted-foreground text-sm">AVS College of Arts and Science, India</p>
+            <p className="text-muted-foreground text-xs mt-1">2019 — 2022 · PHP, Software Engineering, Mobile Computing, C#, Java</p>
+          </motion.div>
+        </div>
+
+        {/* Certifications & Languages */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-5">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            className="card-gradient border border-border rounded-xl p-6 hover:border-primary/30 transition-colors"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <Award size={20} className="text-primary" />
+              <p className="font-mono text-primary text-xs tracking-wider">CERTIFICATIONS</p>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {["Python", "CCNA Networking", "Ethical Hacking"].map((c) => (
+                <span key={c} className="bg-secondary text-secondary-foreground text-sm px-3 py-1.5 rounded-md font-mono">{c}</span>
+              ))}
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.5, delay: 0.5 }}
+            className="card-gradient border border-border rounded-xl p-6 hover:border-primary/30 transition-colors"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <Languages size={20} className="text-primary" />
+              <p className="font-mono text-primary text-xs tracking-wider">LANGUAGES</p>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {["English", "Tamil (Native)", "Chinese (Learning)"].map((l) => (
+                <span key={l} className="bg-secondary text-secondary-foreground text-sm px-3 py-1.5 rounded-md font-mono">{l}</span>
+              ))}
+            </div>
           </motion.div>
         </div>
       </div>

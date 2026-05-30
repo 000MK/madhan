@@ -5,21 +5,31 @@ import { Briefcase } from "lucide-react";
 const experiences = [
   {
     role: "Part-Time Software Engineer (Python)",
-    company: "ITG Integrate System",
-    location: "Taiwan",
-    description: "Built backend systems, handled data processing, and improved application performance using Python.",
+    company: "Integrate System Co, Ltd",
+    location: "Taoyuan, Taiwan",
+    period: "Jul 2025 — Jan 2026",
+    description: "Developed PyQt desktop applications with interactive GUIs, built and maintained Python Flask backend services and APIs, and managed databases to ensure reliable application performance.",
   },
   {
     role: "Software Engineer, Lead Backend Engineer",
     company: "Episode Technology",
-    location: "",
-    description: "Worked on Pingle hyperlocal booking app, building backend services using PHP & Node.js.",
+    location: "Coimbatore, India",
+    period: "Nov 2023 — Aug 2024",
+    description: "Built and maintained backend services for the Pingle app using Node.js and CodeIgniter. Developed APIs for bookings, payments, and notifications, managed AWS deployment and scaling, and implemented a WhatsApp bot for automated user communication.",
   },
   {
     role: "Software Developer",
     company: "Indtechsoft Solutions",
+    location: "Coimbatore, India",
+    period: "Mar 2023 — Oct 2023",
+    description: "Developed ERP and CRM applications using CodeIgniter. Built backend logic and database structures for business workflows, and improved usability through user-friendly interfaces.",
+  },
+  {
+    role: "Web Development Intern",
+    company: "Nearstall India",
     location: "",
-    description: "Developed ERP and CRM web applications, delivering full-stack solutions for business clients.",
+    period: "Dec 2019 — Jan 2021",
+    description: "Learned and developed websites and web applications, contributing to client projects and gaining hands-on experience in full web development workflows.",
   },
 ];
 
@@ -59,6 +69,7 @@ const ExperienceSection = () => {
                 <p className="font-mono text-primary text-sm mt-1">
                   {exp.company}{exp.location && ` · ${exp.location}`}
                 </p>
+                <p className="font-mono text-muted-foreground text-xs mt-1">{exp.period}</p>
                 <p className="text-muted-foreground mt-2 leading-relaxed">{exp.description}</p>
               </motion.div>
             ))}
